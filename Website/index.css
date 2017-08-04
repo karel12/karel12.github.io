@@ -1,0 +1,97 @@
+body {
+    background: #f5f5f5;
+    background-image: url(brick.png);
+    background-size: 100% 100%;
+
+
+    font-family: verdana;
+}
+
+h1 {
+    text-align: center;
+}
+
+.devices {
+    list-style-type: none;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;    
+}
+
+.devices a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.desc {
+    text-align: center;
+    display: inline;
+}
+
+.desc p {
+    margin: 3em;
+    text-align: left;
+}
+
+.listimage {
+    display: inline-block;
+    width: 30em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.listimage img {
+    height: 100%;
+    width: 100%;
+}
+
+.listimage div {
+    filter:opacity(85%);
+}
+
+.listimage div:hover {
+    filter: opacity(100%);
+}
+
+.listimage div p {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0em;
+    margin-bottom: 2em;
+    margin-top: 0.2em;
+    width: 100%;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+
+#topBtn:hover {
+    background-color: white ;
+}
+
+#topBtn img {
+    width: 4em;
+    height: 4em;
+    padding: 0;
+}
+    

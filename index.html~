@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patrick Green</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fed136">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,400italic,700|Pacifico|Source+Code+Pro:400,700"
+          type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="scripts/css/style.css" type="text/css">
+
+
+    <script type="text/javascript" async
+            src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+
+  </head>
+
+<body>
+
+
+  <header class="hero">
+  <div class="scrim">
+    <div class="fold-centre">
+      <h1>Hello, my name is Patrick Green</h1>
+      
+      <hr>
+      <h3 class="script">Welcome to my Portfolio</h3>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <ul class="row nav-ul">
+      
+      
+      <li class="col">
+        
+	<a class="active"
+           href="/" title="Home">Home</a>
+        
+        
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+
+<div class="">
+  <div class="container vspace">
+
+    <a name="portfolio"></a>
+    
+
+    <div class="center padder">
+      <a href="/cv.pdf" target=_blank class="btn">
+        <i class="fa fa-file-pdf-o"></i> <span class="spacer"></span>
+        <span class="hidden-xs">Curriculum Vitae</span>
+        <span class="visible-xs">CV</span>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="bg-l-grey">
+  <div class="container vspace">
+
+    
+    
+      
+    <div class="row">
+
+      
+      
+      <div class="col">
+        <div class="card">
+          <a href="tvsquared.html" target=_blank>
+            <img src="images/tv2.png" class="img-responsive">
+          <div class="center padder card-head">
+            <h4>Data Normalisation with TVSquared</h4>
+            <span class="muted">Internship and Current Job</span>
+          </div>
+          <div class="padder b-top-grey muted ">
+              <p>As an intern for a large scale TV Ad attribution company, I learnt how to use both psycopg2 and pymongo for backing data storage. I also used a mixture of pandas and pyspark for data science and creating jobs for our job queue.</p>
+          </div>
+         </a>
+        </div>
+      </div>
+      
+    
+    
+
+      
+      <div class="col">
+        <div class="card">
+          <a href="sdp.html" target=_blank>
+            <img src="images/item-5.jpeg" class="img-responsive">
+            
+          <div class="center padder card-head">
+            <h4>System Design Project</h4>
+            <span class="muted">University project</span>
+          </div>
+          <div class="padder b-top-grey muted ">
+            <p>A team of us built two football playing robots using python, opencv and c++ for a tournament against other students in the informatics school for glory and also grades.</p>
+
+          </div>
+          </a>
+        </div>
+      </div>
+      
+    
+
+      
+      
+      <div class="col">
+        <div class="card">
+          <a href="/waveruler.html" target=_blank>
+            <img src="wave2.png" class="img-responsive">
+            
+          <div class="center padder card-head">
+            <h4>waveruler.tech</h4>
+            <span class="muted">Honours project</span>
+          </div>
+          <div class="padder b-top-grey muted ">
+            <p>Started as a self proposed dissertation I endeavoured to monitor wave behavior using low resolution beach webcams to correct for unpredictable factors affecting the forecast of the surf.</p>
+
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      </div><div class="row">
+      
+      
+      <div class="col">
+          <div class="card">
+              <a href="http://honours.win" target=_blank>
+                  <img src="images/honours.win.png" class="img-responsive">
+                      
+                      <div class="center padder card-head">
+                          <h4>honours.win</h4>
+                          <span class="muted">Hackathon project</span>
+                      </div>
+                      <div class="padder b-top-grey muted ">
+                          <p>I wanted to make it easier for students to pick courses by displaying scraped data on course reviews on a single page were courses can be ranked in python Flask</p>
+                          
+                      </div>
+                      </a>
+          </div>
+      </div>
+      
+    
+    
+        
+        
+        <div class="col">
+            <div class="card">
+                <a href="http://euwsc.eusu.ed.ac.uk/new/" target=_blank>
+                    <img src="images/euwsc.png" class="img-responsive">
+                        
+                        <div class="center padder card-head">
+                            <h4>EUWSC Website</h4>
+                            <span class="muted">Personal project</span>
+                        </div>
+                        <div class="padder b-top-grey muted ">
+                            <p>As secretary of the Surf society I wanted to build a website that automated the way I keep people up to date with information, dates, trips and organise sign ups and lesson booking. This gave me experience in both the Google and Facebook API.</p>
+                            
+                        </div>
+                        </a>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="col">
+            <div class="card">
+                <a href="https://bitbucket.org/patchgreen99/modvis3" target=_blank>
+                    <img src="images/item-1.jpg" class="img-responsive">
+                        <div class="center padder card-head">
+                            <h4>Things you didn't know Numpy could do</h4>
+                            <span class="muted">University project</span>
+                        </div>
+                        <div class="padder b-top-grey muted ">
+                            <p>I have developed several simulations in my physics courses and managed to force vectorised Monte Carlo and PDE calculations using numpy</p>
+                        </div>
+                        </a>
+            </div>
+        </div>
+
+
+    </div><div class="row">
+      <div class="col">
+        <div class="card">
+          <a href="https://github.com/tjovanovic/stacshack2017" target=_blank>
+            <img src="images/dot.png" class="img-responsive">
+            
+            <div class="center padder card-head">
+                <h4>Auto DJ</h4>
+                <span class="muted">Hackathon Project</span>
+            </div>
+            <div class="padder b-top-grey muted ">
+                <p>At Stachacks in St Andrews we built a Skill on the Amazon Alexa to queue up songs by quoting their lyrics using the Youtube, Audioscrobbler and Lyrics.wikia API.</p>
+
+          </div>
+          </a>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col">
+          <div class="card">
+              <a href="labcluster.html" target=_blank>
+                 <img src="images/redis.png" class="img-responsive">
+                      
+                      <div class="center padder card-head">
+                          <h4>PyCluster on Scientific Linux</h4>
+                          <span class="muted">Personal Project</span>
+                      </div>
+                      <div class="padder b-top-grey muted ">
+                          <p>In order to harness more compute for coursework I constructed my own cluster of University machines using Redis and Celery.</p>
+                      </div>
+                      </a>
+          </div>
+      </div>
+      
+
+      
+      <div class="col">
+        <div class="card">
+          <a href="https://github.com/patchgreen99/groupBookings" target=_blank>
+            <img src="/images/tiree.png" class="img-responsive">
+            
+          <div class="center padder card-head">
+            <h4>Group Bookings</h4>
+            <span class="muted">Hackathon Project</span>
+          </div>
+          <div class="padder b-top-grey muted ">
+              <p>At Hacktheburgh in Edinburgh I built an algorithm that optimised booking accommadation for a large groups using the Google Places API and the knapsack algorithm.</p>
+          </div>
+          </a>
+        </div>
+      </div>
+      
+    </div><div class="row">
+
+      
+
+    </div><!-- Terminating row  -->
+
+  </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col sep padd">
+        <h4>patrickgreen.site</h4>
+        <br>
+        <div class="bigger">
+          <a href="https://github.com/patchgreen99" target=_blank name="GitHub"><i class="fa fa-github"></i></a>
+          <span>&nbsp;</span>
+          <a href="https://uk.linkedin.com/in/patrick-green-a15b0aa6" target=_blank name="LinkedIn"><i class="fa fa-linkedin"></i></a>
+          <span>&nbsp;</span>
+          <a href="https://www.facebook.com/patrick.green.3705" target=_blank name="Facebook"><i class="fa fa-facebook-official"></i></a>
+          <span>&nbsp;</span>
+          <p>patchgreen99@gmail.com</p>
+      </div>
+       
+
+    </div><!-- /.row -->
+        
+  </div>
+</footer>
+
+
+  
+</body>
+</html>

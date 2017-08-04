@@ -1,0 +1,27 @@
+.video-container1 {
+position: relative;
+padding-bottom: 120%;
+padding-top: 0px;
+margin-bottom: 0px;
+}
+.video-container1 iframe,
+.video-container1 object,
+.video-container1 embed {
+position: absolute;
+top: 0%;
+left: -40%;
+}
+
+.video-container2 {
+position: relative;
+padding-bottom: 75%;
+padding-top: 0px;
+margin-bottom: 0px;
+}
+.video-container2 iframe,
+.video-container2 object,
+.video-container2 embed {
+position: absolute;
+top: 20%;
+left: 10%;
+}
